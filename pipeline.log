@@ -1,0 +1,27 @@
+=== Запуск пайплайна Tue May  6 19:07:23 RTZ 2025 ===
+=== Установка зависимостей ===
+Requirement already satisfied: pandas in c:\users\administrator\appdata\local\packages\pythonsoftwarefoundation.python.3.11_qbz5n2kfra8p0\localcache\local-packages\python311\site-packages (2.2.3)
+Requirement already satisfied: scikit-learn in c:\users\administrator\appdata\local\packages\pythonsoftwarefoundation.python.3.11_qbz5n2kfra8p0\localcache\local-packages\python311\site-packages (1.6.1)
+Requirement already satisfied: joblib in c:\users\administrator\appdata\local\packages\pythonsoftwarefoundation.python.3.11_qbz5n2kfra8p0\localcache\local-packages\python311\site-packages (1.5.0)
+Requirement already satisfied: matplotlib in c:\users\administrator\appdata\local\packages\pythonsoftwarefoundation.python.3.11_qbz5n2kfra8p0\localcache\local-packages\python311\site-packages (3.10.1)
+Requirement already satisfied: numpy>=1.23.2 in c:\users\administrator\appdata\local\packages\pythonsoftwarefoundation.python.3.11_qbz5n2kfra8p0\localcache\local-packages\python311\site-packages (from pandas) (2.2.5)
+Requirement already satisfied: python-dateutil>=2.8.2 in c:\users\administrator\appdata\local\packages\pythonsoftwarefoundation.python.3.11_qbz5n2kfra8p0\localcache\local-packages\python311\site-packages (from pandas) (2.9.0.post0)
+Requirement already satisfied: pytz>=2020.1 in c:\users\administrator\appdata\local\packages\pythonsoftwarefoundation.python.3.11_qbz5n2kfra8p0\localcache\local-packages\python311\site-packages (from pandas) (2025.2)
+Requirement already satisfied: tzdata>=2022.7 in c:\users\administrator\appdata\local\packages\pythonsoftwarefoundation.python.3.11_qbz5n2kfra8p0\localcache\local-packages\python311\site-packages (from pandas) (2025.2)
+Requirement already satisfied: scipy>=1.6.0 in c:\users\administrator\appdata\local\packages\pythonsoftwarefoundation.python.3.11_qbz5n2kfra8p0\localcache\local-packages\python311\site-packages (from scikit-learn) (1.15.2)
+Requirement already satisfied: threadpoolctl>=3.1.0 in c:\users\administrator\appdata\local\packages\pythonsoftwarefoundation.python.3.11_qbz5n2kfra8p0\localcache\local-packages\python311\site-packages (from scikit-learn) (3.6.0)
+Requirement already satisfied: contourpy>=1.0.1 in c:\users\administrator\appdata\local\packages\pythonsoftwarefoundation.python.3.11_qbz5n2kfra8p0\localcache\local-packages\python311\site-packages (from matplotlib) (1.3.2)
+Requirement already satisfied: cycler>=0.10 in c:\users\administrator\appdata\local\packages\pythonsoftwarefoundation.python.3.11_qbz5n2kfra8p0\localcache\local-packages\python311\site-packages (from matplotlib) (0.12.1)
+Requirement already satisfied: fonttools>=4.22.0 in c:\users\administrator\appdata\local\packages\pythonsoftwarefoundation.python.3.11_qbz5n2kfra8p0\localcache\local-packages\python311\site-packages (from matplotlib) (4.57.0)
+Requirement already satisfied: kiwisolver>=1.3.1 in c:\users\administrator\appdata\local\packages\pythonsoftwarefoundation.python.3.11_qbz5n2kfra8p0\localcache\local-packages\python311\site-packages (from matplotlib) (1.4.8)
+Requirement already satisfied: packaging>=20.0 in c:\users\administrator\appdata\local\packages\pythonsoftwarefoundation.python.3.11_qbz5n2kfra8p0\localcache\local-packages\python311\site-packages (from matplotlib) (25.0)
+Requirement already satisfied: pillow>=8 in c:\users\administrator\appdata\local\packages\pythonsoftwarefoundation.python.3.11_qbz5n2kfra8p0\localcache\local-packages\python311\site-packages (from matplotlib) (11.2.1)
+Requirement already satisfied: pyparsing>=2.3.1 in c:\users\administrator\appdata\local\packages\pythonsoftwarefoundation.python.3.11_qbz5n2kfra8p0\localcache\local-packages\python311\site-packages (from matplotlib) (3.2.3)
+Requirement already satisfied: six>=1.5 in c:\users\administrator\appdata\local\packages\pythonsoftwarefoundation.python.3.11_qbz5n2kfra8p0\localcache\local-packages\python311\site-packages (from python-dateutil>=2.8.2->pandas) (1.17.0)
+=== Генерация данных ===
+=== Предобработка данных ===
+=== Обучение модели ===
+=== Оценка модели ===
+ - MSE: 0.677
+ - R�: 0.344
+=== Пайплайн завершён Tue May  6 19:07:27 RTZ 2025 ===
