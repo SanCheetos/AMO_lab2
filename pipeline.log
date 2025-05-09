@@ -1,4 +1,4 @@
-=== Запуск пайплайна Tue May  6 19:07:23 RTZ 2025 ===
+=== Запуск пайплайна Tue May  6 22:23:51 RTZ 2025 ===
 === Установка зависимостей ===
 Requirement already satisfied: pandas in c:\users\administrator\appdata\local\packages\pythonsoftwarefoundation.python.3.11_qbz5n2kfra8p0\localcache\local-packages\python311\site-packages (2.2.3)
 Requirement already satisfied: scikit-learn in c:\users\administrator\appdata\local\packages\pythonsoftwarefoundation.python.3.11_qbz5n2kfra8p0\localcache\local-packages\python311\site-packages (1.6.1)
@@ -23,5 +23,5 @@ Requirement already satisfied: six>=1.5 in c:\users\administrator\appdata\local\
 === Обучение модели ===
 === Оценка модели ===
  - MSE: 0.677
- - R�: 0.344
-=== Пайплайн завершён Tue May  6 19:07:27 RTZ 2025 ===
+ - R^2: 0.344
+=== Пайплайн завершён Tue May  6 22:24:03 RTZ 2025 ===
